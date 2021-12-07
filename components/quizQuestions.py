@@ -1,14 +1,14 @@
 questions = {
     "q1" : {
         "question": "Do you live on earth? ",
-        "yes" : 0,
-        "no" : 10
+        "yes" : 10,
+        "no" : 0
     },
 
     "q2" : {
         "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
+        "yes" : 10,
+        "no" : 0
     },
 
     "q3" : {
@@ -25,37 +25,26 @@ questions = {
 
     "q5" : {
         "question" : "Can you fly? ",
-        "yes" : 0,
-        "no" : 10
+        "yes" : 10,
+        "no" : 0
     },
 
     "q6" : {
-        "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
+        "question" : "Are you part of the avengers? ",
+        "yes" : 10,
+        "no" : 0
     },
 
     "q7" : {
-        "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
+        "question" : "Have you been infected by the symbiote? ",
+        "yes" : 30,
+        "no" : 0
     },
 
     "q8" : {
-        "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
+        "question" : "Are you know for your comedic ways? ",
+        "yes" : 11,
+        "no" : 0
     },
 
-    "q9" : {
-        "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
-    },
-
-    "q10" : {
-        "question" : "Are you human? ",
-        "yes" : 0,
-        "no" : 10
-    }
 }

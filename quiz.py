@@ -16,13 +16,13 @@ print("+++++++++++++++++++++++++++++++\n")
 
 print("total so far: " + str(vars.quizTotal) + "\n")
 
-answer3 = questions["q1"][input(questions["q1"]["question"])]
+answer3 = questions["q3"][input(questions["q3"]["question"])]
 print(answer1)
 
 vars.quizTotal += answer3
 print("+++++++++++++++++++++++++++++++\n")
 
-answer4 = questions["q2"][input(questions["q2"]["question"])]
+answer4 = questions["q4"][input(questions["q4"]["question"])]
 print(answer2)
 
 vars.quizTotal += answer4
@@ -30,13 +30,13 @@ print("+++++++++++++++++++++++++++++++\n")
 
 print("total so far: " + str(vars.quizTotal) + "\n")
 
-answer5 = questions["q1"][input(questions["q1"]["question"])]
+answer5 = questions["q5"][input(questions["q5"]["question"])]
 print(answer1)
 
 vars.quizTotal += answer5
 print("+++++++++++++++++++++++++++++++\n")
 
-answer6 = questions["q2"][input(questions["q2"]["question"])]
+answer6 = questions["q6"][input(questions["q6"]["question"])]
 print(answer2)
 
 vars.quizTotal += answer6
@@ -44,35 +44,19 @@ print("+++++++++++++++++++++++++++++++\n")
 
 print("total so far: " + str(vars.quizTotal) + "\n")
 
-answer7 = questions["q1"][input(questions["q1"]["question"])]
+answer7 = questions["q7"][input(questions["q7"]["question"])]
 print(answer1)
 
 vars.quizTotal += answer7
 print("+++++++++++++++++++++++++++++++\n")
 
-answer8 = questions["q2"][input(questions["q2"]["question"])]
+answer8 = questions["q8"][input(questions["q8"]["question"])]
 print(answer2)
 
 vars.quizTotal += answer8
 print("+++++++++++++++++++++++++++++++\n")
 
 print("total so far: " + str(vars.quizTotal) + "\n")
-
-answer9 = questions["q1"][input(questions["q1"]["question"])]
-print(answer1)
-
-vars.quizTotal += answer9
-print("+++++++++++++++++++++++++++++++\n")
-
-answer10 = questions["q2"][input(questions["q2"]["question"])]
-print(answer2)
-
-vars.quizTotal += answer10
-print("+++++++++++++++++++++++++++++++\n")
-
-print("total so far: " + str(vars.quizTotal) + "\n")
-
-
 
 # after answer all the questions, figure out who your character is
 quizTally.total(vars.quizTotal)
