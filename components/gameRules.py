@@ -67,6 +67,10 @@ def gameRules():
         print("Here goes another round")
         quizTally.total == 0
 
+    elif vars.player == "No":
+        print("Thanks for playing see you again soon!")
+        quit()
+
     print("==============================================================")
 
 
