@@ -61,4 +61,12 @@ def gameRules():
     # after answer all the questions, figure out who your character is
     quizTally.total(vars.quizTotal)
 
+    vars.player = input("would you like to go again?")
+        
+    if vars.player  == "yes":
+        print("Here goes another round")
+        quizTally.total == 0
+
+    print("==============================================================")
+
 
