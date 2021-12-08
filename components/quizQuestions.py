@@ -47,4 +47,10 @@ questions = {
         "no" : 0
     },
 
+        "q9" : {
+        "question" : "Is your Hero a female? ",
+        "yes" : 10000,
+        "no" : 0
+    },
+
 }
