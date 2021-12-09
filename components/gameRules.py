@@ -2,6 +2,7 @@ from components.quizQuestions import questions
 from components import vars, quizTally
 from PIL import Image
 from colorama.ansi import Fore, Back, Style
+import emoji
 
 
 def gameRules():
@@ -70,10 +71,16 @@ def gameRules():
         
     if vars.player  == "y":
         print("Here goes another round")
+        print(emoji.emojize("Python is :thumbs_up:"))
         vars.quizTotal = 0
 
     elif vars.player == "n":
         print("Thanks for playing see you again soon!")
+        print(emoji.emojize("Python is :thumbs_down:"))
+        quit()
+    
+    elif vars.player != "y, n":
+        print("Invalid choice quitting the game")
         quit()
 
     print (Fore.WHITE + "==========================================\n")
