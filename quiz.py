@@ -13,7 +13,7 @@ print (Fore.WHITE+ "================ Deadpool ================")
 print (Fore.BLUE+ "================== Storm =================")
 print (Fore.RED + Back.WHITE + "============== Instructions ==============")
 print (Fore.WHITE + Back.RESET + "Think of one of the characters in the list")
-print (Fore.WHITE  + "   and answer the questions Yes or No")
+print (Fore.WHITE  + "      and answer the questions Y or N")
 print (Fore.WHITE  + "  At the End You Should be givin your")
 print (Fore.WHITE + "           character Enjoy!")
 print (Fore.WHITE + "")
@@ -23,6 +23,7 @@ print (Fore.WHITE + "")
 while vars.player is False:
     
     gameRules.gameRules()
+
 
 
 

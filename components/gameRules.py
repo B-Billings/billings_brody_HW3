@@ -1,7 +1,9 @@
 from components.quizQuestions import questions
 from components import vars, quizTally
 from PIL import Image
+
 def gameRules():
+    
     answer1 = questions["q1"][input(questions["q1"]["question"])]
     
 
@@ -22,7 +24,6 @@ def gameRules():
     print("==========================================\n")
 
     answer4 = questions["q4"][input(questions["q4"]["question"])]
-    
 
     vars.quizTotal += answer4
     print("==========================================\n") 
@@ -62,11 +63,11 @@ def gameRules():
 
     vars.player = input("would you like to go again?")
         
-    if vars.player  == "yes":
+    if vars.player  == "y":
         print("Here goes another round")
-        quizTally.total == 0
+        vars.quizTotal = 0
 
-    elif vars.player == "No":
+    elif vars.player == "n":
         print("Thanks for playing see you again soon!")
         quit()
 
