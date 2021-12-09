@@ -71,12 +71,12 @@ def gameRules():
         
     if vars.player  == "y":
         print("Here goes another round")
-        print(emoji.emojize("Python is :thumbs_up:"))
+        print(emoji.emojize(":thumbs_up:"))
         vars.quizTotal = 0
 
     elif vars.player == "n":
         print("Thanks for playing see you again soon!")
-        print(emoji.emojize("Python is :thumbs_down:"))
+        print(emoji.emojize(":thumbs_down:"))
         quit()
     
     elif vars.player != "y, n":
