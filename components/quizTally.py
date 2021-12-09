@@ -9,33 +9,36 @@ storm = Image.open("storm.jpeg")
 
 def total(value):
     # do some logic to see which character you selected
-    if value == 40:
+    if value < 41:
         vars.character = vars.characters[0]
         hulk.show()
         print("It's " + vars.character)
 
-    elif value == 80:
-        vars.character = vars.characters[1]
-        spider.show()
-        print("It's " + vars.character)
-
-    elif value == 50:
+    elif value < 51:
         vars.character = vars.characters[2]
         iron.show()
         print("It's " + vars.character)
     
-    elif value <51 > 80:
+    elif value < 61:
         vars.character = vars.characters[3]
         pool.show()
         print("It's " + vars.character)
     
-    elif value > 5000:
+    elif value < 100:
+        vars.character = vars.characters[1]
+        spider.show()
+        print("It's " + vars.character)
+    
+    elif value > 1000:
         vars.character = vars.characters[4]
         storm.show()
         print("It's " + vars.character)
     
-    elif value < 40:
+    elif value <= 39:
         print("Your selection doesnt match any of our characters")
+    
+    else:
+        print("Couldn't generate a result")
    
    
         
